@@ -1,11 +1,16 @@
 [MASTER]
 disable=
     format, # Handled by Black autoformatter
-    E0401,  # Unable to import X; import errors are highly environment dependant
-    C0114,  # Missing module docstring
-    C0115,  # Missing class docstring
-    C0116,  # Missing function or method docstring
-    C0411,  # Import order handled by isort
+    duplicate-code,
+    import-error,
+    fixme,
+    global-statement,
+    import-error,
+    line-too-long,
+    missing-module-docstring,
+    wrong-import-order,
 
 [MESSAGES CONTROL]
-disable = C0330, C0326 # Black compatible
+disable=
+    bad-continuation, # Black compatible
+    bad-whitespace, # Black compatible
