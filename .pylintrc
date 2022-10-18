@@ -11,6 +11,4 @@ disable=
     wrong-import-order,
 
 [MESSAGES CONTROL]
-disable=
-    bad-continuation, # Black compatible
-    bad-whitespace, # Black compatible
+disable = C0330, C0326 # Black compatible
