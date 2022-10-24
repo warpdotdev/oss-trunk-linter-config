@@ -10,5 +10,3 @@ disable=
     missing-module-docstring,
     wrong-import-order,
 
-[MESSAGES CONTROL]
-disable = C0330, C0326 # Black compatible
