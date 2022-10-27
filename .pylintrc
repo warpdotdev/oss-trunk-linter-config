@@ -1,4 +1,5 @@
 [MASTER]
+[MESSAGES CONTROL]
 disable=
     format, # Handled by Black autoformatter
     duplicate-code,
