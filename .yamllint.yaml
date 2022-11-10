@@ -1,11 +1,38 @@
-# Minimal yamllint config with no formatting rules enabled (prettier handles those)
+# yamllint rules: https://yamllint.readthedocs.io/en/stable/configuration.html
+---
+yaml-files:
+  - "*.yaml"
+  - "*.yml"
+  - ".yamllint"
+
 rules:
-  quoted-strings:
-    required: only-when-needed
-    extra-allowed: ["{|}"]
+  braces: enable
+  brackets: enable
+  colons: enable
+  commas: enable
+  comments:
+    level: warning
+  comments-indentation:
+    level: warning
+  document-end: disable
+  document-start: disable
+  empty-lines: enable
   empty-values:
     forbid-in-block-mappings: false
     forbid-in-flow-mappings: true
+  float-values: disable
+  hyphens: enable
+  indentation: enable
   key-duplicates: {}
+  key-ordering: disable
+  line-length: disable # default: enabled
+  new-line-at-end-of-file: enable
+  new-lines: enable
   octal-values:
     forbid-implicit-octal: true
+  quoted-strings:
+    required: only-when-needed
+    extra-allowed: ["{|}"]
+  trailing-spaces: enable
+  truthy:
+    level: warning
