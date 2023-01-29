@@ -31,6 +31,7 @@ rules:
   octal-values:
     forbid-implicit-octal: true
   quoted-strings:
+    quote-type: double
     required: only-when-needed
     extra-allowed: ["{|}"]
   trailing-spaces: enable
