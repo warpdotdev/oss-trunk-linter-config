@@ -1,7 +1,7 @@
 # Assume Python 3.10.
 target-version = "py310"
 src = ["src"]
-format = "json"
+format = "pylint"
 select = [
   "A",
   "AIR",
@@ -59,6 +59,14 @@ select = [
 ]
 fixable = [ "ALL"]
 ignore = [
+  "A003",
+  "D100",
+  "D101",
+  "D102",
+  "D103",
+  "D104",
   "E50",
-  "F401"
+  "F401",
+  "I001",
+  "TRY003",
 ]
