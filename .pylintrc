@@ -17,5 +17,6 @@ disable=
     too-many-locals,
     too-many-instance-attributes,
     too-many-return-statements,
-    import-outside-toplevel
+    import-outside-toplevel,
+    too-many-arguments
 
