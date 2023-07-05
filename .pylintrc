@@ -10,4 +10,12 @@ disable=
     line-too-long,
     missing-module-docstring,
     wrong-import-order,
+    missing-function-docstring,
+    too-many-statements,
+    missing-class-docstring,
+    too-few-public-methods,
+    too-many-locals,
+    too-many-instance-attributes,
+    too-many-return-statements,
+    import-outside-toplevel
 
